@@ -1,0 +1,9 @@
+# POST http://localhost:3000/api/items
+# Content-Type: application/json
+
+# {
+#     "item": "3 todo item"
+# }
+
+DELETE http://localhost:3000/api/item/638f8440fa1373c3031c7bc6
+Content-Type: application/json
