@@ -5,5 +5,9 @@
 #     "item": "3 todo item"
 # }
 
-DELETE http://localhost:3000/api/item/638f8440fa1373c3031c7bc6
-Content-Type: application/json
+# PUT http://localhost:3001/api/item/6390400361dbd31554f0b289
+# Content-Type: application/json
+
+# {     
+#     "completed": false
+# }

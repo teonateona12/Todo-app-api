@@ -7,8 +7,12 @@ const todoSchema = new Schema({
     type: Schema.Types.String,
     required: true,
   },
+  completed: {
+    type: Schema.Types.Boolean,
+    required: true,
+  },
 });
 
-const TodoModal = mongoose.model('todo', todoSchema)
+const TodoModal = mongoose.model("todo", todoSchema);
 
-export default TodoModal
+export default TodoModal;
